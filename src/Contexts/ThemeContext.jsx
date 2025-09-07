@@ -29,7 +29,6 @@ export const ThemeContextProvidor=({children})=>{
     const themes = [
   "light",
   "dark",
-  "silk"
 ];
 
 

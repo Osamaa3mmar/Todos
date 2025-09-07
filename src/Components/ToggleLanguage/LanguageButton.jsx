@@ -8,7 +8,7 @@ export default function LanguageButton() {
   console.log(currentLang)
   return (
      <div>
-    <button className=" btn btn-primary btn-sm" popoverTarget="popover-2" style={{ anchorName: "--anchor-2" }}>
+    <button className=" btn btn-primary btn-sm duration-300 hover:bg-primary/10 hover:border-primary hover:text-primary" popoverTarget="popover-2" style={{ anchorName: "--anchor-2" }}>
         <BsGlobe/>
     </button>
     
