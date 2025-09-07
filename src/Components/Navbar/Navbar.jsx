@@ -14,10 +14,10 @@ export default function Navbar() {
 
     debounce.current=setTimeout(()=>{
   setNav((prev)=>{
-if(window.scrollY>600&& !prev){
+if(window.scrollY>200&& !prev){
      return true;
     }
-    if(window.scrollY<600 && prev){
+    if(window.scrollY<200 && prev){
       return false;
     }
     return prev
@@ -40,7 +40,7 @@ if(window.scrollY>600&& !prev){
 
   return (
     <div className={`z-[1000] fixed duration-600 w-[100%] ${nav?"top-4 ":"top-0"}`}>
-    <div className={`navbar shadow-md  sticky top-0  backdrop-blur-md m-auto border-b border-primary/40 px-12 transition-all duration-600 ${nav?"w-[50%] rounded-2xl border top-4":"w-[100%]"}`}>
+    <div className={`navbar shadow-md  sticky top-0  backdrop-blur-md m-auto border-b border-primary/40 px-12 transition-all duration-600 ${nav?"w-[50%] rounded-3xl border top-4":"w-[100%]"}`}>
       <div className="navbar-start">
         <button className="btn btn-ghost btn-lg   normal-case font-semibold tracking-wide   hover:shadow-md transition-all duration-200">
           {t("logo")}

@@ -21,13 +21,13 @@ export default function ProjectHCard() {
         <p className=" text-2xl font-bold">Project Name</p>
         <p className=" text-xs mt-2 text-base-content">2025/9/7 At 10:39 Am</p>
         <div className=" mt-3 flex items-center gap-2">
-          <motion.div whileHover={{rotate:5,scale:1.05}} className="badge badge-primary  badge-soft  badge-md rounded-md hover:cursor-pointer ">
+           <motion.div whileHover={{rotate:5,scale:1.05}} className="badge badge-primary  text-primary border-none bg-primary/10  badge-md rounded-md hover:cursor-pointer ">
             osama
           </motion.div>
-          <motion.div whileHover={{rotate:5,scale:1.05}} className="badge badge-primary  badge-soft  badge-md rounded-md hover:cursor-pointer ">
+           <motion.div whileHover={{rotate:5,scale:1.05}} className="badge badge-primary  text-primary border-none bg-primary/10  badge-md rounded-md hover:cursor-pointer ">
             osama
           </motion.div>
-           <motion.div whileHover={{rotate:5,scale:1.05}} className="badge badge-primary  badge-soft  badge-md rounded-md hover:cursor-pointer ">
+           <motion.div whileHover={{rotate:5,scale:1.05}} className="badge badge-primary  text-primary border-none bg-primary/10  badge-md rounded-md hover:cursor-pointer ">
             osama
           </motion.div>
            <div className="btn btn-sm  btn-ghost">
@@ -43,11 +43,11 @@ export default function ProjectHCard() {
       <div className="ms-auto hidden group-hover:flex btn btn-lg btn-soft duration-300 items-center  self-center justify-end">
         {
           currentLang=="ar"?
-          <IoMdArrowRoundBack size={20}/>
+          <IoMdArrowRoundBack size={30}/>
           
           :
 
-          <IoMdArrowRoundForward size={20}/>
+          <IoMdArrowRoundForward size={30}/>
 
         }
       </div>
